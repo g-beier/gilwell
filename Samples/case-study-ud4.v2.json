@@ -1,0 +1,727 @@
+{
+  "schemaVersion": 2,
+  "template": "case-study",
+  "label": "Unit 4 – Reading 3 · Case study and variations",
+  "title": "Inappropriate sexualized behavior among young people in Scouting",
+  "subtitle": "Case study and variations · Focus: protecting children and adolescents",
+  "sections": [
+    {
+      "id": "home",
+      "title": "Welcome",
+      "menuLabel": "Home",
+      "intro": "Case study and variations · Focus: protecting children and adolescents",
+      "blocks": [
+        {
+          "id": "home-objectives",
+          "type": "alert",
+          "style": "highlight",
+          "title": "Objectives",
+          "list": true,
+          "marker": "check",
+          "items": [
+            "Understand what characterizes inappropriate sexualized behavior among young people.",
+            "Learn the basic course of action for a Scout group in cases of suspected abuse.",
+            "Reflect on different scenarios and variations of the same case.",
+            "Strengthen the culture of protection and the responsible conduct of adults."
+          ]
+        },
+        {
+          "id": "home-como-funciona",
+          "type": "content",
+          "title": "How this case study works",
+          "style": "standard",
+          "list": true,
+          "marker": "plain",
+          "items": [
+            "You start with a base case and decide what the group should do before seeing the recommended flow.",
+            "Then you explore variations of the same case, in any order you like. For each one, think before revealing the analysis.",
+            "In each variation, notice what changes and what stays the same. The central idea emerges when you compare them all.",
+            "At the end of each analysis there is a reflective question. You can write and submit your reflection, but this is optional.",
+            "The activity is complete once you have revealed the analysis of the 13 variations."
+          ]
+        },
+        {
+          "id": "home-button",
+          "type": "button",
+          "label": "Start with the base case",
+          "destination": "section:baseCase"
+        }
+      ]
+    },
+    {
+      "id": "baseCase",
+      "title": "Base case",
+      "menuLabel": "1. Base case",
+      "intro": "Read the case carefully. It is the starting point for all the variations.",
+      "blocks": [
+        {
+          "id": "baseCase-text",
+          "type": "content",
+          "title": "",
+          "style": "highlight",
+          "list": true,
+          "marker": "plain",
+          "items": [
+            "Boy, 10 years old; girl, 10 years old; both children, from the same Scout group.",
+            "During an activity, the boy asks to see and touch the girl’s private parts.",
+            "He tells her “not to tell anyone”.",
+            "The girl tells her mother; the mother goes to the group and expects action.",
+            "The boy has diagnosed psychological disorders (including ADHD)."
+          ]
+        },
+        {
+          "id": "baseCase-question",
+          "type": "content",
+          "title": "Trigger question",
+          "style": "question",
+          "list": false,
+          "marker": "plain",
+          "items": [
+            "What first steps should the group take?"
+          ]
+        },
+        {
+          "id": "baseCase-quiz",
+          "type": "quiz",
+          "title": "Your reasoning",
+          "prompt": "Select all the actions the group should take in the first hours.",
+          "options": [
+            {
+              "correct": true,
+              "feedback": "Correct. Immediate protection of the girl comes first, without creating another risk and without giving explanations to the other young people.",
+              "text": "Separate the two discreetly: each with an adult, in view of others, no one isolated."
+            },
+            {
+              "correct": true,
+              "feedback": "Correct. The record is internal, free of judgments, and is the basis for reporting to the authorities.",
+              "text": "Record what happened objectively and confidentially (date, place, context, brief account, measures taken)."
+            },
+            {
+              "correct": true,
+              "feedback": "Correct. The duty to report belongs to the group and does not depend on proof or certainty.",
+              "text": "Report to the Conselho Tutelar and to the Escoteiros do Brasil Conduct Channel."
+            },
+            {
+              "correct": true,
+              "feedback": "Correct. Removal is not a definitive punishment: it lasts until there is a professional assessment and safe conditions for a possible return.",
+              "text": "Preventively remove the boy from activities, as a protective measure."
+            },
+            {
+              "correct": false,
+              "feedback": "No. Talking to the boy about the incident belongs to the protection network. The group does not take on the role of investigator or judge.",
+              "text": "Call the boy in and ask him for his version, to understand what happened."
+            },
+            {
+              "correct": false,
+              "feedback": "No. The group cannot treat it as a “matter only between families”. The families are supported separately.",
+              "text": "Bring the two families together so they can settle the matter between themselves."
+            },
+            {
+              "correct": false,
+              "feedback": "No. This revictimizes. The girl is not questioned and no details are requested: listening belongs to the protection network.",
+              "text": "Ask the girl to repeat her account in detail in front of the Scouters, to record everything."
+            },
+            {
+              "correct": false,
+              "feedback": "No. Being the same age does not mean “natural curiosity”: asking for secrecy shows awareness that it was wrong.",
+              "text": "Treat it as “child’s play”, since both are the same age."
+            }
+          ],
+          "verifyLabel": "Check answers",
+          "successMessage": "Well done: your answer matches the recommended flow.",
+          "reviewMessage": "Some points deserve another look. See the comments on the options.",
+          "countsForCompletion": false
+        },
+        {
+          "id": "baseCase-after",
+          "type": "reveal",
+          "trigger": "quiz:baseCase-quiz",
+          "label": "",
+          "blocks": [
+            {
+              "id": "baseCase-support-1",
+              "type": "content",
+              "title": "What does this behavior indicate?",
+              "style": "standard",
+              "list": true,
+              "marker": "plain",
+              "items": [
+                "Request to see/touch private parts + instruction to keep it secret = risk markers.",
+                "Sign of possible abuse or attempted sexual abuse between peers.",
+                "Being the same age does not mean “natural curiosity”: asking for secrecy shows awareness that it is wrong.",
+                "The boy’s disorders do not remove the need for protection and reporting.",
+                "Both are children (ECA, art. 2): the State’s response goes through the Conselho Tutelar, with protective measures only (art. 105)."
+              ]
+            },
+            {
+              "id": "baseCase-support-2",
+              "type": "content",
+              "title": "Duties of the Scout group",
+              "style": "standard",
+              "list": true,
+              "marker": "check",
+              "items": [
+                "Protect the girl within the group’s activities.",
+                "Record what happened in an objective and confidential way.",
+                "Report to the Conselho Tutelar and to the Escoteiros do Brasil Conduct Channel; guide the family (police, etc.).",
+                "Adopt internal safety measures (preventive removal, supervision).",
+                "Work with the families separately and in a protected way."
+              ]
+            },
+            {
+              "id": "baseCase-button",
+              "type": "button",
+              "label": "Go to: Basic procedure flow",
+              "destination": "section:flow"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "flow",
+      "title": "Basic procedure flow",
+      "menuLabel": "2. Basic flow",
+      "intro": "Six steps that serve as a reference for all the variations. Open each step.",
+      "blocks": [
+        {
+          "id": "flow-steps",
+          "type": "accordion",
+          "title": "",
+          "numbered": true,
+          "items": [
+            {
+              "title": "Immediate protection of the girl",
+              "items": [
+                "Separate the two, without creating another risk.",
+                "Each stays with an adult, in view of others. No one is left isolated, neither the girl nor the boy.",
+                "The separation is discreet and given no explanation to the other young people."
+              ]
+            },
+            {
+              "title": "Confidential internal record",
+              "items": [
+                "Date, place, context.",
+                "Brief account of what was reported (without judgments).",
+                "Measures already taken."
+              ]
+            },
+            {
+              "title": "Report to the authorities and to Escoteiros do Brasil",
+              "items": [
+                "Conselho Tutelar, Police Station, Dial 100, 190 (if there is immediate risk).",
+                "The duty to report belongs to the group (Law 13.431/2017, art. 13; POR, Rule 143, V).",
+                "Report to the Escoteiros do Brasil Conduct Channel (Integrity Directorate) and notify the Region.",
+                "The group cannot treat it as a “matter only between families”."
+              ]
+            },
+            {
+              "title": "Preventive removal of the boy",
+              "items": [
+                "A protective measure, not a definitive punishment.",
+                "Lasts until there is a professional assessment and safe conditions for a possible return."
+              ]
+            },
+            {
+              "title": "Separate work with the families",
+              "items": [
+                "Girl’s family: protection, listening, support, referrals.",
+                "Boy’s family: seriousness of the matter, professional follow-up, safety commitments."
+              ]
+            },
+            {
+              "title": "Review of protection practices in the group",
+              "items": [
+                "Supervision of activities.",
+                "Training of adults in child and youth protection.",
+                "A culture of listening and record-keeping."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "flow-not-do",
+          "type": "alert",
+          "style": "error",
+          "title": "What NOT to do",
+          "list": true,
+          "marker": "cross",
+          "items": [
+            "Treating it as “child’s play”.",
+            "Resolving it only “between families”, without involving the authorities.",
+            "Exposing the girl (having her repeat the account several times or in front of many people).",
+            "Questioning the girl or asking for details: listening belongs to the protection network.",
+            "Letting the boy take part normally, without restrictions.",
+            "Taking on the role of investigator or judge."
+          ]
+        },
+        {
+          "id": "flow-button",
+          "type": "button",
+          "label": "Explore the variations",
+          "destination": "section:variations"
+        }
+      ]
+    },
+    {
+      "id": "variations",
+      "title": "Variations map",
+      "menuLabel": "3. Variations",
+      "intro": "What if the case were different? Pick a variation, think about what changes and what stays the same, and only then reveal the analysis.",
+      "blocks": [
+        {
+          "id": "variations-map",
+          "type": "map",
+          "intro": "",
+          "labelOnComplete": "Go to the synthesis",
+          "destinationOnComplete": "section:synthesis"
+        }
+      ]
+    },
+    {
+      "id": "synthesis",
+      "title": "Synthesis",
+      "menuLabel": "4. Synthesis",
+      "intro": "",
+      "blocks": [
+        {
+          "id": "synthesis-progress",
+          "type": "progress",
+          "buttonLabel": "Back to the variations",
+          "destination": "section:variations"
+        },
+        {
+          "id": "synthesis-question",
+          "type": "content",
+          "title": "Before seeing the table",
+          "style": "question",
+          "list": false,
+          "marker": "plain",
+          "items": [
+            "In one sentence: what did not change in any of the variations?"
+          ]
+        },
+        {
+          "id": "synthesis-idea",
+          "type": "reveal",
+          "trigger": "button",
+          "label": "Show the central idea",
+          "blocks": [
+            {
+              "id": "synthesis-idea-columns",
+              "type": "columns",
+              "columns": [
+                {
+                  "title": "PROTECT",
+                  "list": false,
+                  "marker": "plain",
+                  "items": [
+                    "protective measures before any judgment"
+                  ]
+                },
+                {
+                  "title": "RECORD",
+                  "list": false,
+                  "marker": "plain",
+                  "items": [
+                    "objectively and confidentially"
+                  ]
+                },
+                {
+                  "title": "COMMUNICATE",
+                  "list": false,
+                  "marker": "plain",
+                  "items": [
+                    "to the authorities and to Escoteiros do Brasil"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "synthesis-table",
+          "type": "table",
+          "title": "All variations side by side"
+        },
+        {
+          "id": "synthesis-principles",
+          "type": "content",
+          "title": "Principles that should guide the group’s actions",
+          "style": "standard",
+          "list": true,
+          "marker": "check",
+          "items": [
+            "Absolute priority to the protection of children and adolescents.",
+            "Do not revictimize: careful listening, confidentiality, avoid exposure.",
+            "Recording and reporting as an institutional duty.",
+            "Protective measures before any judgment about the “truth”.",
+            "Networked work: family, authorities, Escoteiros do Brasil, health and social assistance services."
+          ]
+        },
+        {
+          "id": "synthesis-take",
+          "type": "alert",
+          "style": "highlight",
+          "title": "Take away with you",
+          "list": true,
+          "marker": "check",
+          "items": [
+            "In cases of suspected abuse: protect, record and report.",
+            "An “agreement between families” does not replace protective measures and reporting to the authorities.",
+            "Medical diagnoses (or the lack of them) do not decide whether the group acts.",
+            "Failing to act can lead to repeat incidents and liability for the group and the adults.",
+            "Protecting is also protecting the Scout Movement itself."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "references",
+      "title": "References",
+      "menuLabel": "",
+      "intro": "",
+      "blocks": [
+        {
+          "id": "references-list",
+          "type": "content",
+          "title": "",
+          "style": "standard",
+          "list": true,
+          "marker": "plain",
+          "items": [
+            "Escoteiros do Brasil. POR (version 2.1), Chapter 16 (Rules 143 and 144): escoteirosrs.org.br/biblioteca-virtual-antiga.",
+            "Escoteiros do Brasil. Conduct Channel: escoteiros.org.br/canal-de-conduta.",
+            "Statute of the Child and Adolescent (ECA, Law 8.069/1990), arts. 2, 101, 105, 143.",
+            "Penal Code, arts. 13, §2, 217-A and 225.",
+            "Law 13.431/2017 (specialized listening and duty to report), arts. 4, 7 and 13."
+          ]
+        }
+      ]
+    }
+  ],
+  "variations": {
+    "reflectionNotice": "When you submit, your reflection is recorded on the platform and may be read by the course team. Do not write names or data that identify children, families or real cases. Once submitted, it cannot be edited; if you leave this screen without submitting, the text is discarded.",
+    "reflectionMinimum": 10,
+    "reflectionMaximum": 500,
+    "themes": [
+      {
+        "description": "Age, diagnosis and who the perpetrator is.",
+        "id": "youth",
+        "title": "Who the young people are"
+      },
+      {
+        "description": "Agreement, pressure, silence, denial and minimization.",
+        "id": "families",
+        "title": "How families react"
+      },
+      {
+        "description": "Where it happened, history, failure to act and what actually occurred.",
+        "id": "theme",
+        "title": "What the group did or knows"
+      }
+    ],
+    "variations": [
+      {
+        "changes": [
+          "Turning 12 = adolescent (ECA, art. 2): the change is legal, not behavioral.",
+          "The conduct may be handled as an infraction, with the Public Prosecutor’s Office and the Juvenile Court.",
+          "Possible responses: remission (art. 126) or open-environment socio-educational measure (art. 112); before age 12, only protective measures (art. 105)."
+        ],
+        "extra": [],
+        "id": 1,
+        "question": "Why can a birthday change the State’s response, but not what the group must do?",
+        "staysSame": [
+          "Protect the girl.",
+          "Record.",
+          "Report to the Conselho Tutelar.",
+          "Preventively remove the boy."
+        ],
+        "synthesis": "The State’s response changes, not the group’s duty.",
+        "theme": "youth",
+        "title": "Both are 12 years old",
+        "whatIf": "What if both were 12 years old?"
+      },
+      {
+        "changes": [
+          "The parents ask that the case not proceed and say the matter has already been resolved between them."
+        ],
+        "extra": [
+          {
+            "items": [
+              "By “sorting it out” without seeking support for their children, the families fail to act, and failing to act in a way that offends a child’s rights is unlawful conduct (ECA, art. 5).",
+              "This failure does not release the others: the duty belongs to everyone (Federal Constitution, art. 227; ECA, arts. 4 and 18).",
+              "Sexual crimes against vulnerable persons: unconditional public criminal action (Penal Code, art. 225)."
+            ],
+            "title": "Legal basis"
+          }
+        ],
+        "id": 2,
+        "question": "If the family does not protect, who must? And if the family does protect, are the other adults off the hook?",
+        "staysSame": [
+          "The group cannot delegate to the families the decision on protection and reporting.",
+          "Even with an “agreement”: keep the protective measures.",
+          "Report to the Conselho Tutelar (a legal duty, not an option for the families).",
+          "Keep the internal record."
+        ],
+        "synthesis": "The duty to report does not belong to the families.",
+        "theme": "families",
+        "title": "The families “sort it out”",
+        "whatIf": "What if the parents say “we’ve already settled it, don’t take it further”?"
+      },
+      {
+        "changes": [
+          "There is pressure for immediate expulsion, for taking sides, and a threat of public exposure."
+        ],
+        "extra": [
+          {
+            "items": [
+              "A young person under 18: the matter is handled within the group itself, with educational tools and with the parents (POR, Rules 042, III, and 144, r).",
+              "The formal UEB disciplinary process applies to those over 18 (CAN Res. 08/2022, art. 1).",
+              "Expulsion of a member only for just cause, established in a procedure with defense and appeal (Civil Code, art. 57)."
+            ],
+            "title": "How to handle the disciplinary question"
+          },
+          {
+            "items": [
+              "Avoid public exposure; advise the families not to share names, images and details.",
+              "Reinforce internal confidentiality (ECA, art. 143) and limit knowledge of the case to those who need to know."
+            ],
+            "title": "Confidentiality and exposure"
+          }
+        ],
+        "id": 3,
+        "question": "How can we explain to the victim’s family that protecting now, without punishing now, is what ensures a fair and lasting decision?",
+        "staysSame": [
+          "The group keeps an institutional stance of protection, without entering a “war of narratives”.",
+          "Preventive removal is immediate and is not punishment: it protects while the case is assessed.",
+          "The group decides by criteria, not by pressure from either family."
+        ],
+        "synthesis": "Protect now, without punishing now, and decide by criteria, not by pressure.",
+        "theme": "families",
+        "title": "Combative stance from the victim’s parents",
+        "whatIf": "What if the girl’s parents demand immediate expulsion, want the group to take sides, or threaten to go to the press?"
+      },
+      {
+        "changes": [
+          "Without a diagnosis, the question changes: where did this behavior come from?",
+          "Sexualized conduct unusual for the age may indicate exposure to abuse, pornography or violence.",
+          "That is why professional assessment is needed in both cases."
+        ],
+        "extra": [
+          {
+            "items": [
+              "Removes him preventively and explains why: the measure also protects the boy; it is not punishment.",
+              "Maintains the bond: stays in contact with the family and does not treat the boy as a closed case.",
+              "Refers him to the network: the Conselho Tutelar can require psychological treatment (ECA, art. 101, V) and oblige the parents to send him to specialized treatment (art. 129, VI).",
+              "Makes his return conditional on: ongoing professional follow-up; a written supervision plan; no unsupervised contact with the girl; a change of section, if applicable.",
+              "Does not: diagnose, investigate the case with the boy, expose him or expel him without due process."
+            ],
+            "title": "And the boy? What does the group do?"
+          }
+        ],
+        "id": 4,
+        "question": "What arguments can we use with a family that says “he has nothing wrong, it was just curiosity”?",
+        "staysSame": [
+          "The diagnosis does not explain the conduct: ADHD mainly involves inattention and impulsivity, and asking for secrecy shows he knew it was wrong.",
+          "With or without a diagnosis, the conduct is the same and calls for the same response.",
+          "With a diagnosis, the network already assisting the boy can help the group: with the family’s authorization, the professionals can guide the supervision plan.",
+          "A diagnosis may require more supervision, never less."
+        ],
+        "synthesis": "With or without a diagnosis, the conduct and the response are the same.",
+        "theme": "youth",
+        "title": "Boy without a psychological disorder",
+        "whatIf": "What if the boy had no diagnosis at all?"
+      },
+      {
+        "changes": [
+          "The group’s responsibility for the incident exists only when it had taken on care.",
+          "In an activity that was planned, approved by the board and authorized by the parents: the group answers, through its Scouters and the president (POR, Rule 141, V and VI).",
+          "At a gathering organized by the families, the parents answer (Civil Code, art. 932, I).",
+          "At a gathering called by a Scouter outside these rules, whoever called it took on care and also answers."
+        ],
+        "extra": [
+          {
+            "items": [
+              "Both are members of the same group; the dynamic between them was also built in the Scout context."
+            ],
+            "title": "Point of attention"
+          }
+        ],
+        "id": 5,
+        "question": "To what extent is the group responsible for what happens “outside hours”? Where do we draw the line?",
+        "staysSame": [
+          "Once aware, everyone’s duty is the same, wherever the incident occurred.",
+          "Report to the authorities (Law 13.431/2017, art. 13).",
+          "Protect the Scout environment, where the two continue to interact (POR, Rule 143, V).",
+          "Protect the girl in official activities, record it as protection information and report to the authorities."
+        ],
+        "synthesis": "The group answers for what it took on caring for; the duty to act after learning of it always applies.",
+        "theme": "theme",
+        "title": "Incident outside an official activity",
+        "whatIf": "What if the episode happened at an informal gathering of Scouts, outside an official group activity?"
+      },
+      {
+        "changes": [
+          "Two changes at once: he becomes an adolescent (see Variation 1) and an imbalance appears between the two.",
+          "Differences in age, maturity and, usually, section (Scout Troop and Cub Pack) increase the concern.",
+          "Request + secrecy + power imbalance: a stronger sign of abuse between peers.",
+          "Girl under 14: criminal law considers consent irrelevant (Penal Code, art. 217-A, §5)."
+        ],
+        "extra": [],
+        "id": 6,
+        "question": "In what situations does a small age difference create a big difference in power between young people?",
+        "staysSame": [
+          "The same measures as the base case, with preventive removal even more clearly called for."
+        ],
+        "synthesis": "A greater power imbalance reinforces the same measures.",
+        "theme": "youth",
+        "title": "Boy aged 12, girl aged 10",
+        "whatIf": "What if the boy were 12 and the girl 10?"
+      },
+      {
+        "changes": [
+          "A repeated pattern increases seriousness and urgency.",
+          "Reinforces the need for immediate preventive removal and reporting to the authorities.",
+          "Requires a review of possible earlier failures to act."
+        ],
+        "extra": [],
+        "id": 7,
+        "question": "What signs could the group have noticed earlier that pointed to a pattern of inappropriate behavior?",
+        "staysSame": [
+          "The basic flow remains the same.",
+          "The group should seek internal information carefully, without “investigating” on its own."
+        ],
+        "synthesis": "A repeated pattern increases urgency, not the flow.",
+        "theme": "theme",
+        "title": "Other earlier episodes",
+        "whatIf": "What if there are other earlier episodes, with her or with other young people?"
+      },
+      {
+        "changes": [
+          "A contrary version appears: the boy’s denial and an accusation that the girl is lying."
+        ],
+        "extra": [],
+        "id": 8,
+        "question": "How can we explain to the boy’s family that removing him does not mean considering him guilty?",
+        "staysSame": [
+          "The group does not take on the role of judge; it does not decide who is telling the truth.",
+          "Removes the boy preventively, even with the denial. The measure protects, does not depend on a confession and does not declare guilt. It is temporary and is reviewed when the protection network responds.",
+          "Explains the meaning of the measure to his family: it is not an accusation; it serves to protect both children while the case is assessed.",
+          "Does not try to obtain a confession: talking to the boy about the incident belongs to the protection network, not the group.",
+          "Treats the case as a suspicion, based on the girl’s account: proof or certainty is not needed to report (ECA, art. 13).",
+          "Reports to the authorities and lets them lead the investigation."
+        ],
+        "synthesis": "Removal protects and does not depend on a confession or declare guilt.",
+        "theme": "families",
+        "title": "Boy denies it and his family defends him",
+        "whatIf": "What if the boy denies everything, and his family says the girl is lying?"
+      },
+      {
+        "changes": [
+          "The girl herself says it was nothing and wants to keep spending time together."
+        ],
+        "extra": [],
+        "id": 9,
+        "question": "How can we listen to the girl without turning her into a “witness” or a “suspect”?",
+        "staysSame": [
+          "The girl’s words do not eliminate the need for protection.",
+          "Children and adolescents may downplay out of fear, shame, pressure or lack of understanding.",
+          "The instruction to keep it secret is already an indicator that something wrong occurred.",
+          "The group maintains the protective measures, the record, the follow-up guidance and the report to the Conselho Tutelar."
+        ],
+        "synthesis": "The girl’s words do not remove the need for protection.",
+        "theme": "families",
+        "title": "Girl says “it was nothing”",
+        "whatIf": "What if the girl downplays what happened and says she wants to keep seeing the boy in the group?"
+      },
+      {
+        "changes": [
+          "For the association: civil liability for failing its duty of care.",
+          "For the adults: ethical-disciplinary review and, in theory, criminal liability for omission by those who took on care (Penal Code, art. 13, §2).",
+          "For the victims: risk of repeat incidents and worsening abuse.",
+          "For the Movement: loss of trust and a culture of impunity."
+        ],
+        "extra": [],
+        "id": 10,
+        "question": "What arguments can we use with a leader who says “let’s not overreact, or they’ll say we’re a group of monsters”?",
+        "staysSame": [
+          "The duty to protect, record and report already existed at the first episode and still applies."
+        ],
+        "synthesis": "Failing to act has consequences for the victims, the group and the adults.",
+        "theme": "theme",
+        "title": "The group does nothing and the case repeats",
+        "whatIf": "What if the group decides “not to make a fuss” and, months later, there is another episode, perhaps a more serious one?"
+      },
+      {
+        "changes": [
+          "Crime in theory: rape of a vulnerable person, if there was touching (Penal Code, art. 217-A); consent irrelevant.",
+          "Immediate and total removal of the adult from any activity (CAN Res. 08/2022, art. 18, §4).",
+          "Report also to the police, in addition to the Conselho Tutelar."
+        ],
+        "extra": [],
+        "id": 11,
+        "question": "Why is the temptation to “handle it in-house” usually greater when the perpetrator is an adult well-liked in the group?",
+        "staysSame": [
+          "The duty to report to the Conselho Tutelar and to the Escoteiros do Brasil Conduct Channel.",
+          "Never “resolve it internally” or wait for the institution’s review before reporting."
+        ],
+        "synthesis": "Adult: total and immediate removal, report to the police; never handle it internally.",
+        "theme": "youth",
+        "title": "Perpetrator aged 18 or older",
+        "whatIf": "What if the person who made the request were a Pioneer or an adult Scouter?"
+      },
+      {
+        "changes": [
+          "The legal classification may be different, or there may be none; that is for the authorities to decide."
+        ],
+        "extra": [],
+        "id": 12,
+        "question": "Why does the group not need to be certain about what happened in order to report?",
+        "staysSame": [
+          "Request + instruction to keep it secret remains a risk marker.",
+          "Law 13.431/2017 defines sexual violence broadly (art. 4, III).",
+          "The duty to protect, record and report does not change."
+        ],
+        "synthesis": "Certainty is not needed to report.",
+        "theme": "theme",
+        "title": "Only the request, no touching",
+        "whatIf": "What if the boy had only asked, without actually touching the girl?"
+      },
+      {
+        "changes": [
+          "The victim’s own family asks that the case not be reported."
+        ],
+        "extra": [
+          {
+            "items": [
+              "Protection is also shared in the digital environment, where abusive contact and requests for secrecy can continue.",
+              "WhatsApp requires users to be 13 (Terms of Service), and the Digital ECA assigns parents “active and continuous care” over their children’s internet use (Law 15.211/2025, art. 3, sole paragraph).",
+              "It is up to the group to guide the families on this, not to replace them."
+            ],
+            "title": "Note: digital environment"
+          }
+        ],
+        "id": 13,
+        "question": "How can we explain to the mother that reporting also protects her daughter?",
+        "staysSame": [
+          "The duty to report is legal and does not depend on the family (Law 13.431/2017, art. 13).",
+          "Acknowledge the family’s fear and explain that reporting is not public exposure.",
+          "Inform the family before reporting, without yielding on the duty.",
+          "Keep confidentiality and the internal record."
+        ],
+        "synthesis": "The duty to report is legal and does not depend on the family.",
+        "theme": "families",
+        "title": "Victim’s mother asks for silence",
+        "whatIf": "What if the girl’s mother asks the group not to tell anyone?"
+      }
+    ]
+  },
+  "completion": {
+    "requireAllSections": false,
+    "requireVariations": true,
+    "requiredVariations": 0,
+    "requireQuizzes": false,
+    "requiredReflections": 0
+  }
+}

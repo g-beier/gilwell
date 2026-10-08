@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>SCORM Package</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+
+  <header class="top">
+    <div class="top-inner">
+      <div class="top-title">
+        <p class="eyebrow" id="course-label"></p>
+        <h1 id="course-title"></h1>
+      </div>
+      <div class="progress" aria-live="polite">
+        <div class="progress-text"><span id="prog-num">0</span> of <span id="prog-total">0</span> <span id="prog-label"></span></div>
+        <div class="bar" role="progressbar" aria-label="Progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="prog-bar">
+          <div class="bar-fill" id="prog-fill"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <nav class="menu" aria-label="Sections">
+    <div class="menu-inner">
+      <ul id="menu-list"></ul>
+      <span class="menu-count" aria-hidden="true"><span id="menu-num">0</span>/<span id="menu-total">0</span></span>
+    </div>
+    <div class="mini-bar" aria-hidden="true"><div class="mini-fill" id="mini-fill"></div></div>
+  </nav>
+
+  <main id="content" tabindex="-1"></main>
+
+  <footer class="footer">
+    <p>Training material on child and youth protection. Reflections are only recorded when you click “Send reflection”.</p>
+    <button type="button" class="top-link" id="btn-top">↑ Back to top</button>
+  </footer>
+
+  <script src="js/scorm.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

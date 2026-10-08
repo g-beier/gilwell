@@ -2,20 +2,17 @@
 //  gilwellSCROMApp.swift
 //  gilwellSCROM
 //
-//  Created by Gustav Beier on 08/10/26.
+//  Document-based app: each case study is a .gilwell file.
 //
 
 import SwiftUI
-import CoreData
 
 @main
 struct gilwellSCROMApp: App {
-    let persistenceController = PersistenceController.shared
-
     var body: some Scene {
-        WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+        DocumentGroup(newDocument: GilwellDocument()) { file in
+            ContentView(document: file.$document)
         }
+        .defaultSize(width: 1280, height: 780)
     }
 }

@@ -1,0 +1,31 @@
+const { JSDOM } = require("jsdom");
+const fs = require("fs"), path = require("path");
+const root = process.argv[2];
+let html = fs.readFileSync(path.join(root, "index.html"), "utf8");
+html = html.replace(/<script src="([^"]+)"><\/script>/g, (m, s) => "<script>" + fs.readFileSync(path.join(root, s), "utf8") + "</script>");
+const dom = new JSDOM(html, { runScripts: "dangerously", pretendToBeVisual: true, beforeParse(w) { w.scrollTo = () => {}; w.HTMLElement.prototype.scrollIntoView = () => {}; } });
+const d = dom.window.document; let fail = 0;
+const ok = (c, m) => { console.log(c ? "ok:" : "FAIL:", m); if (!c) fail = 1; };
+const click = el => el.dispatchEvent(new dom.window.MouseEvent("click", { bubbles: true, cancelable: true }));
+const tag = () => d.querySelector(".detail-header .tag").textContent;
+dom.window.addEventListener("load", () => {
+  click(d.querySelectorAll("#menu-list button")[3]);
+  click(d.querySelector('[data-variation="6"]'));
+  ok(d.querySelectorAll("a.ref-variation").length === 0, "link still hidden before revealing");
+  click(d.getElementById("btn-reveal"));
+  const links = d.querySelectorAll("a.ref-variation");
+  ok(links.length === 1 && links[0].dataset.ref === "1" && /Variation 1/.test(links[0].textContent), "one link to Variation 1");
+  ok(!d.querySelector("[data-back]"), "no return button on normal opening");
+  click(links[0]);
+  ok(tag().startsWith("Variation 1 "), "link opened Variation 1: " + tag());
+  const back = d.querySelector("[data-back]");
+  ok(back && back.dataset.back === "6" && /Variation 6/.test(back.textContent), "'Back to Variation 6' button");
+  click(back);
+  ok(tag().startsWith("Variation 6 "), "returned to Variation 6");
+  ok(!!d.querySelector("#analysis:not([hidden]) a.ref-variation"), "analysis of 6 is still revealed");
+  // following the link again and then navigating normally clears the return
+  click(d.querySelector("a.ref-variation"));
+  click(d.querySelector('.nav-variation [data-go]'));
+  ok(!d.querySelector("[data-back]"), "return disappears when navigating another way");
+  process.exit(fail);
+});
